@@ -9,7 +9,7 @@ const User = require('./models/User');
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://ekanshiyadav2024:<db_password>@cluster1.v4lpcis.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1', {
+mongoose.connect('mongodb+srv://ekanshi:qazplm1234@cluster1.v4lpcis.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
